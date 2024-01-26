@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><span>N</span>amitha.</div>
+        <nav>
+            <ul class="navlist">
+                <li><a href="#home" style="--i:1;">Home</a></li>
+                <li><a href="#about" style="--i:2;">About</a></li>
+                <li><a href="#skills" style="--i:3;">Skills</a></li>
+                <li><a href="#portfolio" style="--i:4;">Portfolio</a></li>
+                <li><a href="#contact" style="--i:5;">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="menu-icon" class="bx bx-menu">
+        </div>
+    </header>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi ! I'm Namitha</h1>
+            <div class="change-text">
+                <h3>And I'm Aspiring</h3>
+                <h3>
+                    <span class="word">Web&nbsp;Developer</span>
+                </h3>
+            </div>
+            <p>A passionate and creative individual with a keen interest in frontend development and web design.</p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email: </h5>
+                    <span><a href="https://mail.google.com/mail/?view=cm&fs=1&to=namitha.shimoga.ravikumar@gmail.com" target="_blank">namitha.shimoga.ravikumar@gmail.com</a></span>
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <a href="https://drive.google.com/file/d/1U0XjTx-ZG0gpA5kp4UyXXlzto-ZShQG5/view?usp=drivesdk"
+                    class="btn" target="_blank">Download CV</a>
+            </div>
+
+            <div class="home-image" scroll-scale>
+                <div class="img-box">
+                    <img src="img/Namitha.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about">
+        <div class="about-content scroll-scale">
+            <span>Let me introduce myself</span>
+            <h2>About me</h2>
+            <h3>A story of good</h3>
+            <p>I specialize in creating immersive and responsive user interfaces, translating concepts into code, and
+                crafting seamless user experiences. With a strong foundation in HTML, CSS, and JavaScript, I enjoy the
+                process of transforming design mockups into interactive web applications. I believe in the power of
+                simplicity and clean code. My goal is to not just write code that works but to write code that is
+                efficient, maintainable, and scalable.</p>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="skills">
+        <div class="main-text scroll-scale">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <!-- Technical Skills -->
+            <div class="skill-left scroll-scale">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <P>75%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="75"></div>
+                        <div class="text">
+                            <large>75%</large>
+                            <small>Problem Solving</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <large>80%</large>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <large>80%</large>
+                            <small>Time Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <large>90%</large>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- portfolio section -->
+    <section id="portfolio" class="portfolio">
+        <div class="main-text scroll-scale">
+            <span>what I will do for you</span>
+            <h2>Latest Projects</h2>
+        </div>
+
+        <div class="container">
+            <div class="filter-buttons scroll-scale">
+                <button class="button" data-filter=".responsive">Responsive</button>
+                <button class="button" data-filter=".web">Webpages</button>
+            </div>
+
+            <div class="portfolio-gallery scroll-bottom">
+                <!-- Portfolio Item 1 -->
+                <div class="port-box mix responsive">
+                    <div class="port-image">
+                        <img src="img/Gogreen.PNG" alt="Surveyform" width="450px" height="300px">
+                    </div>
+                    <div class="port-content">
+                        <h3>Survey Form</h3>
+                        <p>
+                            A user-friendly survey form webpage designed to collect and analyze data through an
+                            intuitive and visually appealing interface.
+                        </p>
+                        <a href="https://namitha273.github.io/Survey-Form.github.io/"><i
+                                class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="port-box mix responsive">
+                    <div class="port-image">
+                        <img src="img/product.PNG" alt="Product Landing" width="450px" height="300px">
+                    </div>
+                    <div class="port-content">
+                        <h3>Product Landing Webpage</h3>
+                        <p>
+                            A captivating product landing webpage showcasing features, benefits, and an easy-to-navigate
+                            design to engage and convert visitors into customers.
+                        </p>
+                        <a href="https://namitha273.github.io/Product-landing.github.io/"><i
+                                class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="img/tribute.PNG" alt="Tribute page" width="450px" height="300px">
+                    </div>
+                    <div class="port-content">
+                        <h3>Tribute Page</h3>
+                        <p>
+                            A tribute webpage honoring and commemorating a person or subject, creatively designed to
+                            share information, evoke emotions, and pay homage to the chosen tribute.
+                        </p>
+                        <a href="https://namitha273.github.io/Tribute.github.io/"><i
+                                class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="port-box mix web">
+                    <div class="port-image">
+                        <img src="img/doc.PNG" alt="Tech-doc-page" width="450px" height="300px">
+                    </div>
+                    <div class="port-content">
+                        <h3>Technical Documentation Page</h3>
+                        <p>
+                            A concise technical documentation webpage offering clear and organized information for easy
+                            reference and understanding of a specific technology, framework, or tool.
+                        </p>
+                        <a href="https://namitha273.github.io/Tech-doc.github.io/"><i
+                                class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="content">
+        <div class="main-text scroll-scale">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#" class="scroll-bottom">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Address">
+            <input type="number" placeholder="Phone Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <p class="scroll-scale">Copyright &copy; 2024 by Namitha Coder || All Right Reserved.</p>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
